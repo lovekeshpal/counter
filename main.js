@@ -5,6 +5,7 @@ let count = 0;
 const value = document.querySelector("#value");
 const btns = document.querySelectorAll(".btn");
 
+//Adding Functionality to Buttons
 btns.forEach(function (btn) {
   btn.addEventListener("click", function (e) {
     const styles = e.currentTarget.classList;
